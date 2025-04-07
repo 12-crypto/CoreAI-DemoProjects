@@ -10,7 +10,7 @@ https://huggingface.co/black-forest-labs/FLUX.1-schnell
 
 - A GPU with at least 24GB of VRAM
 - Docker or Podman
-- A Hugging Face token
+- A Hugging Face token to download the required weights at runtime
 
 ## Start CoreAI
 
@@ -39,4 +39,20 @@ Load the notebook `Flux1Schnell.ipynb` and follow the instructions contained in 
 
 ## Stop CoreAI
 
-You can stop the container by pressing `Ctrl + C` in the terminal where the container is running.
+You can stop the Notebook by using the `File -> Shutdown` option.
+
+Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal where the container is running.
+
+## Cleanup
+
+Because we used the `--rm` flag, the container will be automatically removed when you stop it.
+
+If you want to remove the container manually, you can run:
+
+```bash
+# podman command
+podman rm CoreAI-Flux1Schnell
+
+# docker command
+docker rm CoreAI-Flux1Schnell
+```

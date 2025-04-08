@@ -92,7 +92,7 @@ Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal
 
 2. **Install Required Packages**:
 
-   - To enhance the functionality of the CTPO environment, you may need to install some libraries not pre-installed but required for this notebook. Follow these steps to install the necessary libraries from the `requirements.txt` file:
+   - To enhance the functionality of the CoreAI environment, you may need to install some libraries not pre-installed but required for this notebook. Follow these steps to install the necessary libraries from the `requirements.txt` file:
 
    **2.1 Create and Activate the Virtual Environment:**
    

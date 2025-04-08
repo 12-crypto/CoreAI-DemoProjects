@@ -57,10 +57,10 @@ From the folder where this `README.md` is, run:
 # Run one of the following commands:
 
 # podman command
-podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-NextWordPrediction docker.io/infotrend/coreai:latest  /run_jupyter.sh
+podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
 
 # docker command
-docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-NextWordPrediction infotrend/coreai:latest  /run_jupyter.sh
+docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 infotrend/coreai:latest  /run_jupyter.sh
 ```
 
 Follow the instructions in the notebook `Next_word_prediction.ipynb`.
@@ -75,7 +75,7 @@ Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal
 
 ## 3.1. Installing Libraries
 
-To enhance the functionality of the environment, you may need to install some libraries not pre-installed in the CTPO environment but required for this notebook. Follow these steps to install the necessary libraries from the `requirements.txt` file:
+To enhance the functionality of the environment, you may need to install some libraries not pre-installed in the CoreAI environment but required for this notebook. Follow these steps to install the necessary libraries from the `requirements.txt` file:
 
 ### 3.1.1. Create and Activate the Virtual Environment
 

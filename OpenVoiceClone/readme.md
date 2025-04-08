@@ -1,6 +1,8 @@
-# OpenVoice: Advanced Voice Cloning and Synthesis
+<h1>OpenVoice: Advanced Voice Cloning and Synthesis</h1>
 
-## Project Overview
+
+
+# Project Overview
 
 OpenVoice is a cutting-edge project dedicated to the development of voice cloning and speech synthesis technologies. This repository hosts the tools and models necessary for implementing state-of-the-art voice cloning capabilities, enabling users to create lifelike synthetic voices from audio samples.
 
@@ -29,6 +31,30 @@ This application provides a user-friendly interface for voice translation. Below
 
 This application is designed to be intuitive and easy to use, ensuring that users can quickly translate voices with minimal effort.
 
+# 2. CoreAI Setup
+
+From the folder where this `README.md` is, run:
+
+```bash
+# Run one of the following commands:
+
+# podman command
+podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
+
+# docker command
+docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 infotrend/coreai:latest  /run_jupyter.sh
+```
+
+Follow the instructions in the notebook `OpenVoiceClone.ipynb`.
+
+## 2.1. Stop CoreAI
+
+You can stop the Notebook by using the `File -> Shutdown` option.
+
+Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal where the container is running.
+
+# 3. Detailed Setup
+
 ## System Requirements
 
 - **Python 3.x**: Ensure Python 3.x is installed.
@@ -44,7 +70,7 @@ This application is designed to be intuitive and easy to use, ensuring that user
 
 2. **Install Required Packages**:
 
-   - To enhance the functionality of the CTPO environment, you may need to install some libraries not pre-installed but required for this notebook. Follow these steps to install the necessary libraries from the `requirements.txt` file:
+   - To enhance the functionality of the CoreAI environment, you may need to install some libraries not pre-installed but required for this notebook. Follow these steps to install the necessary libraries from the `requirements.txt` file:
 
    **2.1 Create and Activate the Virtual Environment:**
    

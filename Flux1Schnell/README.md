@@ -31,10 +31,10 @@ export HF_TOKEN=enter_your_HF_TOKEN_here
 # Run one of the following commands:
 
 # podman command
-podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -e HF_TOKEN=${HF_TOKEN} -v `pwd`:/iti -p 8888:8888 --name CoreAI-Flux1Schnell docker.io/infotrend/coreai:latest  /run_jupyter.sh
+podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -e HF_TOKEN=${HF_TOKEN} -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
 
 # docker command
-docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -e HF_TOKEN=${HF_TOKEN} -v `pwd`:/iti -p 8888:8888 --name CoreAI-Flux1Schnell infotrend/coreai:latest  /run_jupyter.sh
+docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -e HF_TOKEN=${HF_TOKEN} -v `pwd`:/iti -p 8888:8888 infotrend/coreai:latest  /run_jupyter.sh
 ```
 
 # 4. Access CoreAI

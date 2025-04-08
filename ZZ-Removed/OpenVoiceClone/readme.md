@@ -1,21 +1,39 @@
-<h1>OpenVoice: Advanced Voice Cloning and Synthesis</h1>
+# 1. OpenVoice: Advanced Voice Cloning and Synthesis
+
+In `ZZ-Removed` due missing library. Will investigate further.
+
+- [1. OpenVoice: Advanced Voice Cloning and Synthesis](#1-openvoice-advanced-voice-cloning-and-synthesis)
+- [2. Project Overview](#2-project-overview)
+  - [2.1. Original GitHub Link](#21-original-github-link)
+  - [2.2. Voice Translation Widgets](#22-voice-translation-widgets)
+    - [2.2.1. Features](#221-features)
+    - [2.2.2. Usage](#222-usage)
+- [3. CoreAI Setup](#3-coreai-setup)
+  - [3.1. Stop CoreAI](#31-stop-coreai)
+- [4. Detailed Setup](#4-detailed-setup)
+  - [4.1. System Requirements](#41-system-requirements)
+  - [4.2. Setup and Installation](#42-setup-and-installation)
+  - [4.3. How To Use](#43-how-to-use)
+  - [4.4. Model Preparation](#44-model-preparation)
+  - [4.5. Run the Notebook:](#45-run-the-notebook)
+  - [4.6. Troubleshooting](#46-troubleshooting)
+    - [4.6.1. Common Issues and Fixes](#461-common-issues-and-fixes)
 
 
-
-# Project Overview
+# 2. Project Overview
 
 OpenVoice is a cutting-edge project dedicated to the development of voice cloning and speech synthesis technologies. This repository hosts the tools and models necessary for implementing state-of-the-art voice cloning capabilities, enabling users to create lifelike synthetic voices from audio samples.
 
-## Original GitHub Link
+## 2.1. Original GitHub Link
 
 [OpenVoice Project Repository](https://github.com/myshell-ai/OpenVoice)
 
 
-## Voice Translation Widgets
+## 2.2. Voice Translation Widgets
 
 This application provides a user-friendly interface for voice translation. Below are the features available:
 
-### Features
+### 2.2.1. Features
 
 1. **Voice Upload**: Users can upload their voice recordings in MP3 format.
    
@@ -23,7 +41,7 @@ This application provides a user-friendly interface for voice translation. Below
    
 3. **Text Input Box**: Users can input or edit the text that will be translated into the selected language using the uploaded voice.
 
-### Usage
+### 2.2.2. Usage
 
 - **Uploading Voice**: Click on the 'Upload' button and select an MP3 file from your device.
 - **Selecting Language**: Use the dropdown to choose the target language for translation.
@@ -31,7 +49,7 @@ This application provides a user-friendly interface for voice translation. Below
 
 This application is designed to be intuitive and easy to use, ensuring that users can quickly translate voices with minimal effort.
 
-# 2. CoreAI Setup
+# 3. CoreAI Setup
 
 From the folder where this `README.md` is, run:
 
@@ -47,22 +65,22 @@ docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_
 
 Follow the instructions in the notebook `OpenVoiceClone.ipynb`.
 
-## 2.1. Stop CoreAI
+## 3.1. Stop CoreAI
 
 You can stop the Notebook by using the `File -> Shutdown` option.
 
 Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal where the container is running.
 
-# 3. Detailed Setup
+# 4. Detailed Setup
 
-## System Requirements
+## 4.1. System Requirements
 
 - **Python 3.x**: Ensure Python 3.x is installed.
 - **Operating System**: Linux or macOS (for complete compatibility with all tools and scripts).
 
-## Setup and Installation
+## 4.2. Setup and Installation
 
-## How To Use
+## 4.3. How To Use
 
 1. **Setup Environment**:
    - Clone the repository or download the specific project files.
@@ -96,7 +114,7 @@ Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal
    !. ./myvenv/bin/activate; pip install -r requirements.txt
    ```
 
-## Model Preparation
+## 4.4. Model Preparation
 Download and prepare the model data:
 
 1. Create a directory for model checkpoints:
@@ -109,13 +127,13 @@ Download and prepare the model data:
     unzip checkpoints_v2_0417.zip -d checkpoints_v2
     ```
    
-## Run the Notebook:
+## 4.5. Run the Notebook:
 - Open the `demo.ipynb` notebook in a Jupyter environment.
 -  Follow the instructions within the notebook, executing the code cells in sequence. Each cell includes comments explaining the purpose of the code, which will guide you through the demo process.
 - Make sure to read any embedded instructions or comments carefully to maximize your understanding and troubleshooting any issues that may arise.
 
-## Troubleshooting
-### Common Issues and Fixes
+## 4.6. Troubleshooting
+### 4.6.1. Common Issues and Fixes
 CUDA Library Error: If you encounter an error related to libcublas.so.11, create a symbolic link to the newer version:
     ```
     ln -s /usr/local/cuda/lib64/libcublas.so.12 /usr/local/cuda/lib64/libcublas.so.11

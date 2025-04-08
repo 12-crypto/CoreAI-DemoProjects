@@ -25,7 +25,6 @@ CoreAI is a powerful environment designed to facilitate machine learning, comput
 | Natural Language Processing | Next Word Prediction | [Next_word_prediction](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Next_word_prediction) |
 | Natural Language Processing | NLP with Disaster Tweets | [NLP_with_DisasterTweets](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/NLP_with_DisasterTweets) |
 | Natural Language Processing | Sentiment Analysis | [Sentiment_Analysis](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Sentiment_Analysis) |
-| Natural Language Processing | Open Voice Clone | [OpenVoiceClone](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/OpenVoiceClone) |
 | Natural Language Processing | Skimming Literature | [SkimLit](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/SkimLit) |
 
 ## Testing a Notebook
@@ -52,3 +51,4 @@ Contains projects that are have been tested with CoreAI but found not functional
 | Domain | Project Name | Link to Directory |
 | --- | --- | --- |
 | Data Science | Home Credit Default Risk Recognition | [Home-Credit-Default-Risk-Recognition](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-Removed/Home-Credit-Default-Risk-Recognition) |
+| Natural Language Processing | Open Voice Clone | [OpenVoiceClone](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-Removed/OpenVoiceClone) |

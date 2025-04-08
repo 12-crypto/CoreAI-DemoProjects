@@ -59,3 +59,8 @@ NLP_with_DisasterTweets/.ipynb_checkpoints
 NLP_with_DisasterTweets/myvenv
 NLP_with_DisasterTweets/data/*.csv
 
+# OpenVoiceClone
+ZZ-Removed/OpenVoiceClone/.ipynb_checkpoints
+ZZ-Removed/OpenVoiceClone/myvenv
+ZZ-Removed/OpenVoiceClone/checkpoints_v2
+

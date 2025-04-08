@@ -1,0 +1,108 @@
+# Flux1Schnell
+Flux1Schnell/.ipynb_checkpoints
+Flux1Schnell/HF_HOME
+Flux1Schnell/myvenv
+Flux1Schnell/flux-schnell.png
+
+# Amex Default Prediction
+amex-default-prediction/.ipynb_checkpoints
+amex-default-prediction/data
+amex-default-prediction/myvenv
+amex-default-prediction/models
+amex-default-prediction/submission.csv
+
+# Electrical Transmission Line Fault Detection
+Electrical_Fault_Detection_Classification/.ipynb_checkpoints
+Electrical_Fault_Detection_Classification/transmission_line_fault_detection
+Electrical_Fault_Detection_Classification/myvenv
+
+# Fashion MNIST Classification
+Fashion_MNIST_Classification/.ipynb_checkpoints
+Fashion_MNIST_Classification/F_MNIST_data
+
+# Fast_neural-Style-Transfer
+Fast_neural-Style-Transfer/.ipynb_checkpoints
+Fast_neural-Style-Transfer/input
+Fast_neural-Style-Transfer/models
+Fast_neural-Style-Transfer/myvenv
+Fast_neural-Style-Transfer/__pycache__
+Fast_neural-Style-Transfer/outputs
+Fast_neural-Style-Transfer/images
+Fast_neural-Style-Transfer/videos
+
+# Home Credit Default Risk Recognition
+.WiP/Home-Credit-Default-Risk-Recognition/.ipynb_checkpoints
+.WiP/Home-Credit-Default-Risk-Recognition/data
+.WiP/Home-Credit-Default-Risk-Recognition/myvenv
+.WiP/Home-Credit-Default-Risk-Recognition/models
+.WiP/Home-Credit-Default-Risk-Recognition/submission.csv
+
+# Hotel Reservation Cancellation
+Hotel_reservation_cancellation/.ipynb_checkpoints
+Hotel_reservation_cancellation/data
+Hotel_reservation_cancellation/myvenv
+
+# Image Background Removal
+Image_Background_Removal/.ipynb_checkpoints
+Image_Background_Removal/images
+Image_Background_Removal/results/*
+Image_Background_Removal/__pycache__
+Image_Background_Removal/model/__pycache__
+
+# Next Word Prediction
+Next_word_prediction/.ipynb_checkpoints
+Next_word_prediction/myvenv
+Next_word_prediction/data
+
+# NLP with Disaster Tweets
+NLP_with_DisasterTweets/.ipynb_checkpoints
+NLP_with_DisasterTweets/myvenv
+NLP_with_DisasterTweets/data/*.csv
+
+# OpenVoiceClone
+.WiP/OpenVoiceClone/.ipynb_checkpoints
+.WiP/OpenVoiceClone/myvenv
+.WiP/OpenVoiceClone/checkpoints_v2
+
+# Predicting Yelp Ratings
+predicting-yelp-ratings/.ipynb_checkpoints
+predicting-yelp-ratings/myvenv
+predicting-yelp-ratings/data
+predicting-yelp-ratings/temp
+
+# Sentiment Analysis
+Sentiment_Analysis/.ipynb_checkpoints
+Sentiment_Analysis/myvenv
+Sentiment_Analysis/data
+Sentiment_Analysis/Sentiment_Analysis
+
+# SkimLit
+.WiP/SkimLit/.ipynb_checkpoints
+.WiP/SkimLit/myvenv
+.WiP/SkimLit/data
+.WiP/SkimLit/__pycache__
+.WiP/SkimLit/logs
+
+# Sleep Disorder prediction
+Sleep_Disorder_prediction/.ipynb_checkpoints
+Sleep_Disorder_prediction/data
+Sleep_Disorder_prediction/myvenv
+
+# Wind Turbine Failure Detection
+Wind_turbine_failure_detection/.ipynb_checkpoints
+Wind_turbine_failure_detection/data
+Wind_turbine_failure_detection/myvenv
+
+# SDXL DreamBooth LoRA Training
+SDXL_DreamBooth_LoRA_Training/.ipynb_checkpoints
+SDXL_DreamBooth_LoRA_Training/output__LoRA
+SDXL_DreamBooth_LoRA_Training/myvenv
+SDXL_DreamBooth_LoRA_Training/train_dreambooth_lora_sdxl.py
+SDXL_DreamBooth_LoRA_Training/input_images
+SDXL_DreamBooth_LoRA_Training/HF_HOME
+
+# Gemma3
+Gemma3/.ipynb_checkpoints
+Gemma3/HF_HOME
+Gemma3/myvenv
+Gemma3/data

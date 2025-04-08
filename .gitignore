@@ -16,3 +16,7 @@ Electrical_Fault_Detection_Classification/.ipynb_checkpoints
 Electrical_Fault_Detection_Classification/transmission_line_fault_detection
 Electrical_Fault_Detection_Classification/myvenv
 
+# Fashion MNIST Classification
+Fashion_MNIST_Classification/.ipynb_checkpoints
+Fashion_MNIST_Classification/F_MNIST_data
+

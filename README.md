@@ -1,4 +1,4 @@
-# CoreAI: Tech Projects
+<h1>CoreAI: Tech Projects</h1>
 
 Examples using CoreAI (CUDA, TensorFlow, PyTorch, OpenCV) as their source container.
 
@@ -7,7 +7,7 @@ CoreAI: https://github.com/Infotrend-Inc/CoreAI
 CoreAI is a powerful environment designed to facilitate machine learning, computer vision and NLP projects. These examples have been adapted from public sources and presented as Jupyter Notebooks to demonstrate the versatility and capabilities of CoreAI. Each project leverages different libraries and tools within the CoreAI environment to solve domain-specific problems. This collection serves as a practical resource for developers and researchers to explore various machine learning, computer vision and NLP techniques.
 
 
-## Project List
+# Project List
 
 | Domain | Project Name | Link to Directory |
 | --- | --- | --- |
@@ -26,7 +26,6 @@ CoreAI is a powerful environment designed to facilitate machine learning, comput
 | Natural Language Processing | Next Word Prediction | [Next_word_prediction](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Next_word_prediction) |
 | Natural Language Processing | NLP with Disaster Tweets | [NLP_with_DisasterTweets](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/NLP_with_DisasterTweets) |
 | Natural Language Processing | Sentiment Analysis | [Sentiment_Analysis](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Sentiment_Analysis) |
-| Natural Language Processing | Skimming Literature | [SkimLit](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/SkimLit) |
 
 ## Testing a Notebook
 
@@ -45,7 +44,7 @@ podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`
 docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
 ```
 
-## ZZ-WiP
+# About ZZ-WiP
 
 Existing projects that are have been tested with CoreAI but found not functional currently or are still in the process of being tested.
 
@@ -53,3 +52,4 @@ Existing projects that are have been tested with CoreAI but found not functional
 | --- | --- | --- |
 | Data Science | Home Credit Default Risk Recognition | [Home-Credit-Default-Risk-Recognition](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-WiP/Home-Credit-Default-Risk-Recognition) |
 | Natural Language Processing | Open Voice Clone | [OpenVoiceClone](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-WiP/OpenVoiceClone) |
+| Natural Language Processing | Skimming Literature | [SkimLit](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-WiP/SkimLit) |

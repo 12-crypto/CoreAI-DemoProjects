@@ -31,11 +31,11 @@ Fast_neural-Style-Transfer/images
 Fast_neural-Style-Transfer/videos
 
 # Home Credit Default Risk Recognition
-ZZ-Removed/Home-Credit-Default-Risk-Recognition/.ipynb_checkpoints
-ZZ-Removed/Home-Credit-Default-Risk-Recognition/data
-ZZ-Removed/Home-Credit-Default-Risk-Recognition/myvenv
-ZZ-Removed/Home-Credit-Default-Risk-Recognition/models
-ZZ-Removed/Home-Credit-Default-Risk-Recognition/submission.csv
+ZZ-WiP/Home-Credit-Default-Risk-Recognition/.ipynb_checkpoints
+ZZ-WiP/Home-Credit-Default-Risk-Recognition/data
+ZZ-WiP/Home-Credit-Default-Risk-Recognition/myvenv
+ZZ-WiP/Home-Credit-Default-Risk-Recognition/models
+ZZ-WiP/Home-Credit-Default-Risk-Recognition/submission.csv
 
 # Hotel Reservation Cancellation
 Hotel_reservation_cancellation/.ipynb_checkpoints
@@ -60,7 +60,7 @@ NLP_with_DisasterTweets/myvenv
 NLP_with_DisasterTweets/data/*.csv
 
 # OpenVoiceClone
-ZZ-Removed/OpenVoiceClone/.ipynb_checkpoints
-ZZ-Removed/OpenVoiceClone/myvenv
-ZZ-Removed/OpenVoiceClone/checkpoints_v2
+ZZ-WiP/OpenVoiceClone/.ipynb_checkpoints
+ZZ-WiP/OpenVoiceClone/myvenv
+ZZ-WiP/OpenVoiceClone/checkpoints_v2
 

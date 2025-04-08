@@ -43,13 +43,3 @@ podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`
 # docker command
 docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
 ```
-
-# About ZZ-WiP
-
-Existing projects that are have been tested with CoreAI but found not functional currently or are still in the process of being tested.
-
-| Domain | Project Name | Link to Directory |
-| --- | --- | --- |
-| Data Science | Home Credit Default Risk Recognition | [Home-Credit-Default-Risk-Recognition](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-WiP/Home-Credit-Default-Risk-Recognition) |
-| Natural Language Processing | Open Voice Clone | [OpenVoiceClone](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-WiP/OpenVoiceClone) |
-| Natural Language Processing | Skimming Literature | [SkimLit](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/ZZ-WiP/SkimLit) |

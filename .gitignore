@@ -11,3 +11,8 @@ amex-default-prediction/myvenv
 amex-default-prediction/models
 amex-default-prediction/submission.csv
 
+# Electrical Transmission Line Fault Detection
+Electrical_Fault_Detection_Classification/.ipynb_checkpoints
+Electrical_Fault_Detection_Classification/transmission_line_fault_detection
+Electrical_Fault_Detection_Classification/myvenv
+

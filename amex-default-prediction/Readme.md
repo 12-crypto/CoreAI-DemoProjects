@@ -1,23 +1,40 @@
-# Amex Default Prediction
+<h1>Amex Default Prediction</h1>
 
-## Original Author
+- [1. Project Details](#1-project-details)
+  - [1.1. Original Author](#11-original-author)
+  - [1.2. Original License](#12-original-license)
+  - [1.3. Original GitHub Link](#13-original-github-link)
+  - [1.4. Description of Project](#14-description-of-project)
+  - [1.5. Required Datasets](#15-required-datasets)
+    - [1.5.1. How to Download Dataset](#151-how-to-download-dataset)
+- [2. CoreAI Setup](#2-coreai-setup)
+  - [2.1. Stop CoreAI](#21-stop-coreai)
+- [3. Detailed Setup](#3-detailed-setup)
+  - [3.1. Expected Packages and Resource Requirements](#31-expected-packages-and-resource-requirements)
+  - [3.2. How To Use](#32-how-to-use)
+  - [3.3. Troubleshooting](#33-troubleshooting)
+  - [3.4. Changes Made to the Original Notebook](#34-changes-made-to-the-original-notebook)
+
+# 1. Project Details
+
+## 1.1. Original Author
 
 **GitHub Profile**: [Marcos Ots](https://github.com/N0t10n)
 
-## Original License
+## 1.2. Original License
 
 MIT License  
 This project is licensed under the MIT License - see original repo for details.
 
-## Original GitHub Link
+## 1.3. Original GitHub Link
 
 [Amex Default Prediction Notebook](https://github.com/N0t10n/Amex_default_prediction/blob/main/model.ipynb)
 
-## Description of Project
+## 1.4. Description of Project
 
 This project aims to predict default risk using the American Express Default Prediction dataset. Utilizing advanced machine learning techniques, the project analyzes and predicts customer default likelihood, thereby enhancing financial decision-making processes.
 
-## Required Datasets
+## 1.5. Required Datasets
 
 **American Express Default Prediction Dataset**:
 
@@ -27,7 +44,7 @@ Download the following datasets and place them in a `data` directory accessible 
 
 - Obtain the Kaggle Feather Files from [Kaggle Feather Dataset](https://www.kaggle.com/datasets/ruchi798/parquet-files-amexdefault-prediction), download the `.ftr` (Feather format) files for efficient data handling
 
-### How to Download Dataset
+### 1.5.1. How to Download Dataset
 To access and download the datasets, please follow these steps:
 
 1. Visit the Kaggle dataset pages through the links provided above.
@@ -35,8 +52,31 @@ To access and download the datasets, please follow these steps:
 3. Create a `data` folder in the directory with the Jupyter notebook and unzip the downloaded files into that folder. This step ensures that all data files are ready to be accessed by the notebook.
 4. Create a `models` folder in the same directory. This folder will be used to store and fetch the machine learning models you train.
 
+# 2. CoreAI Setup
 
-## Expected Packages and Resource Requirements
+From the folder where this `README.md` is, run:
+
+```bash
+# Run one of the following commands:
+
+# podman command
+podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-AmexDefaultPrediction docker.io/infotrend/coreai:latest  /run_jupyter.sh
+
+# docker command
+docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-AmexDefaultPrediction infotrend/coreai:latest  /run_jupyter.sh
+```
+
+Follow the instructions in the notebook `amex-default-prediction.ipynb`.
+
+## 2.1. Stop CoreAI
+
+You can stop the Notebook by using the `File -> Shutdown` option.
+
+Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal where the container is running.
+
+# 3. Detailed Setup
+
+## 3.1. Expected Packages and Resource Requirements
 
 **Python Packages**:
 - pandas
@@ -50,7 +90,7 @@ To access and download the datasets, please follow these steps:
 **Resource Requirements**:
 - CPU or GPU (optional for faster training)
 
-## How To Use
+## 3.2. How To Use
 
 1. **Setup Environment**:
    - Clone the repository or download the specific project files.
@@ -94,13 +134,13 @@ To access and download the datasets, please follow these steps:
 5. **Model Usage**:
 - The trained model can be used to predict the likelihood of customer defaults, providing valuable insights for financial decision-making.
 
-## Troubleshooting
+## 3.3. Troubleshooting
 
 - Ensure that the name of the dataset file is the same as referenced in the notebook.
 - Make sure the Jupyter notebook and the dataset are in the same folder to avoid file path issues.
 - Change the model saving path based on your directory structure to ensure the model is saved correctly.
 
-## Changes Made to the Original Notebook
+## 3.4. Changes Made to the Original Notebook
 
 - Integrated Exploratory Data Analysis (EDA) and modeling into a single Jupyter notebook.
 - Combined the training dataset with target labels, which was not present in the original implementation.

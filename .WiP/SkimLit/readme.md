@@ -1,6 +1,6 @@
 <h1>SkimLit: Skimming Literature with NLP</h1>
 
-In `ZZ-WiP`: issue with XLA
+In `.WiP`: issue with XLA
 
 - [1. Project Details](#1-project-details)
   - [1.1. Original Author](#11-original-author)

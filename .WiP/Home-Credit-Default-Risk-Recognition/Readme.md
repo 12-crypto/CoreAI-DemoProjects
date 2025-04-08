@@ -1,6 +1,6 @@
 <h1>Home Credit Default Risk Recognition</h1>
 
-In `ZZ-WiP` folder: `featuretools` is not maintained.
+In `.WiP` folder: `featuretools` is not maintained.
 
 - [1. Project Details](#1-project-details)
   - [1.1. Original Author](#11-original-author)

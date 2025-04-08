@@ -1,6 +1,6 @@
 # 1. OpenVoice: Advanced Voice Cloning and Synthesis
 
-In `ZZ-WiP` due to missing library. Will investigate further.
+In `.WiP` due to missing library. Will investigate further.
 
 - [1. OpenVoice: Advanced Voice Cloning and Synthesis](#1-openvoice-advanced-voice-cloning-and-synthesis)
 - [2. Project Overview](#2-project-overview)

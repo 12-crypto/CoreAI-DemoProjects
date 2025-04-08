@@ -82,3 +82,8 @@ Sentiment_Analysis/Sentiment_Analysis
 .WiP/SkimLit/data
 .WiP/SkimLit/__pycache__
 .WiP/SkimLit/logs
+
+# Sleep Disorder prediction
+Sleep_Disorder_prediction/.ipynb_checkpoints
+Sleep_Disorder_prediction/data
+Sleep_Disorder_prediction/myvenv

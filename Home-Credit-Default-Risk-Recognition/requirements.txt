@@ -1,7 +1,0 @@
-pydash
-featuretools
-lightgbm
-hyperopt
-featuretools==0.16
-seaborn
-xgboost

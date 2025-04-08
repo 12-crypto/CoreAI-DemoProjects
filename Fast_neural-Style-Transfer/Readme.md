@@ -1,29 +1,48 @@
-# Style Transform Project
+<h1>Style Transform Project</h1>
 
-## Original Author
+- [1. Project Details](#1-project-details)
+  - [1.1. Original Author](#11-original-author)
+  - [1.2. Original License](#12-original-license)
+  - [1.3. Original GitHub Link](#13-original-github-link)
+  - [1.4. Description of Project](#14-description-of-project)
+  - [1.5. Required Datasets](#15-required-datasets)
+    - [1.5.1. How to Download Models](#151-how-to-download-models)
+  - [1.6. Supported Media Formats](#16-supported-media-formats)
+  - [1.7. Expected Packages and Resource Requirements](#17-expected-packages-and-resource-requirements)
+- [2. CoreAI Setup](#2-coreai-setup)
+  - [2.1. Stop CoreAI](#21-stop-coreai)
+- [3. Detailed Setup](#3-detailed-setup)
+  - [3.1. How To Use](#31-how-to-use)
+  - [3.2. Troubleshooting](#32-troubleshooting)
+  - [3.3. Changes Made to the Original Notebook](#33-changes-made-to-the-original-notebook)
+
+
+# 1. Project Details
+
+## 1.1. Original Author
 
 **GitHub Profile**: [Erik Linder-Norén](https://github.com/eriklindernoren)
 
-## Original License
+## 1.2. Original License
 
 MIT License  
 This project is licensed under the MIT License - see the original repo for details.
 
-## Original GitHub Link
+## 1.3. Original GitHub Link
 
 [Fast Neural Style Transfer](https://github.com/eriklindernoren/Fast-Neural-Style-Transfer)
 
-## Description of Project
+## 1.4. Description of Project
 
 This project is designed to perform style transfer on images and videos, applying artistic styles to media via convolutional neural networks. It leverages models trained on various artistic images to transform the aesthetic of input images and videos, allowing users to create stylized media in real-time.
 
-## Required Datasets
+## 1.5. Required Datasets
 
 **Pre-trained Style Transfer Models**:
 
 The pre-trained models can be downloaded from the following Google Drive folder. Please download all the files at once to ensure you have the complete set of necessary models for this project.
 
-### How to Download Models
+### 1.5.1. How to Download Models
 To access and download all the models in one go, please follow these simplified steps:
 
 1. Visit the [Google Drive folder with pre-trained models](https://drive.google.com/drive/folders/1aRD6zakhcDImN2Y54qAT6f4801iLcCLB?usp=sharing).
@@ -31,7 +50,7 @@ To access and download all the models in one go, please follow these simplified 
 3. Unzip the downloaded file into the `models` directory within your project folder.
 
 
-## Supported Media Formats
+## 1.6. Supported Media Formats
 
 **Images Supported**:
 - JPEG (.jpg, .jpeg)
@@ -40,7 +59,7 @@ To access and download all the models in one go, please follow these simplified 
 - AVI (.avi)
 - GIF (.gif)
 
-## Expected Packages and Resource Requirements
+## 1.7. Expected Packages and Resource Requirements
 
 **Python Packages**:
 - torch
@@ -54,7 +73,31 @@ To access and download all the models in one go, please follow these simplified 
 **Resource Requirements**:
 - CPU or GPU (GPU recommended for faster processing)
 
-## How To Use
+# 2. CoreAI Setup
+
+From the folder where this `README.md` is, run:
+
+```bash
+# Run one of the following commands:
+
+# podman command
+podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-FastNeuralStyleTransfer docker.io/infotrend/coreai:latest  /run_jupyter.sh
+
+# docker command
+docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-FastNeuralStyleTransfer infotrend/coreai:latest  /run_jupyter.sh
+```
+
+Follow the instructions in the notebook `fast-neural-style-transfer.ipynb`.
+
+## 2.1. Stop CoreAI
+
+You can stop the Notebook by using the `File -> Shutdown` option.
+
+Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal where the container is running.
+
+# 3. Detailed Setup
+
+## 3.1. How To Use
 
 1. **Setup Environment**:
    - Clone the repository or download the specific project files.
@@ -96,13 +139,13 @@ To access and download all the models in one go, please follow these simplified 
 - Select the desired pre-trained style transfer model.
 - Execute style transfer and view the stylized outputs directly in the notebook.
 
-## Troubleshooting
+## 3.2. Troubleshooting
 
 - Ensure that the model and media files are placed in the correct directories (`models` and `input/images` or `input/videos` respectively).
 - Check that all dependencies are installed correctly within the virtual environment.
 - Make sure CUDA is available for GPU usage if a GPU is being utilized for processing.
 
-## Changes Made to the Original Notebook
+## 3.3. Changes Made to the Original Notebook
 
 - Integrated image and video style transfer capabilities into a single Jupyter notebook.
 - Enhanced user interaction through the use of IPython widgets for file upload and model selection.

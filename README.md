@@ -44,3 +44,7 @@ podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`
 # docker command
 docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
 ```
+
+## A note on tags
+
+Published tags should match the tags in the [CoreAI](https://github.com/Infotrend-Inc/CoreAI) repository.

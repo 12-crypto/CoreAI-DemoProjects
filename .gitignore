@@ -48,3 +48,9 @@ Image_Background_Removal/images
 Image_Background_Removal/results/*
 Image_Background_Removal/__pycache__
 Image_Background_Removal/model/__pycache__
+
+# Next Word Prediction
+Next_word_prediction/.ipynb_checkpoints
+Next_word_prediction/myvenv
+Next_word_prediction/data
+

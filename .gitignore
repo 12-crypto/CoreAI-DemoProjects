@@ -36,3 +36,8 @@ ZZ-Removed/Home-Credit-Default-Risk-Recognition/data
 ZZ-Removed/Home-Credit-Default-Risk-Recognition/myvenv
 ZZ-Removed/Home-Credit-Default-Risk-Recognition/models
 ZZ-Removed/Home-Credit-Default-Risk-Recognition/submission.csv
+
+# Hotel Reservation Cancellation
+Hotel_reservation_cancellation/.ipynb_checkpoints
+Hotel_reservation_cancellation/data
+Hotel_reservation_cancellation/myvenv

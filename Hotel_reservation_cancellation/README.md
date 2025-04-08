@@ -1,35 +1,52 @@
-# Hotel Reservations Cancellation Prediction
+<h1>Hotel Reservations Cancellation Prediction</h1>
 
-## Original Author
+- [1. Project Details](#1-project-details)
+  - [1.1. Original Author](#11-original-author)
+  - [1.2. Original License](#12-original-license)
+  - [1.3. Original Notebook](#13-original-notebook)
+  - [1.4. Description of Project](#14-description-of-project)
+  - [1.5. Required Datasets](#15-required-datasets)
+    - [1.5.1. How to Download Dataset](#151-how-to-download-dataset)
+  - [1.6. Expected Packages and Resource Requirements](#16-expected-packages-and-resource-requirements)
+- [2. CoreAI Setup](#2-coreai-setup)
+  - [2.1. Stop CoreAI](#21-stop-coreai)
+- [3. Detailed Setup](#3-detailed-setup)
+  - [3.1. How To Use](#31-how-to-use)
+
+
+# 1. Project Details
+
+## 1.1. Original Author
 
 **GitHub Profile**: [Sukhman Singh](https://github.com/SUKHMAN-SINGH-1612)
 
-## Original License
+## 1.2. Original License
 
 MIT License  
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/SUKHMAN-SINGH-1612/Data-Science-Projects/blob/main/LICENSE) file for details.
 
-## Original Notebook
+## 1.3. Original Notebook
 
 [Hotel Reservations Cancellation Prediction Notebook](https://github.com/SUKHMAN-SINGH-1612/Data-Science-Projects/blob/main/Hotel%20Reservations%20Cancellation%20Prediction/Hotel%20Reservations%20Cancelation%20Prediction.ipynb)
 
-## Description of Project
+## 1.4. Description of Project
 
 This project focuses on predicting hotel reservation cancellations by analyzing various features associated with reservations. By using machine learning techniques, the model aims to identify patterns and factors that contribute to cancellations, enabling hotels to take proactive measures to reduce cancellation rates and optimize revenue management.
 
-## Required Datasets
+## 1.5. Required Datasets
 
 Hotel Reservations Data - [Kaggle Dataset](https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset)
 
-### How to Download Dataset
+### 1.5.1. How to Download Dataset
 
 To access and download the dataset, please follow these steps:
 
 1. Visit the Kaggle dataset page through the link provided above.
 2. Click on the "Download" button on the dataset page to download the dataset zip file.
-3. Unzip the downloaded file into the folder where you will run the Jupyter notebook. This step ensures that all data files are ready to be accessed by the notebook.
+3. Create a `data` folder in your project directory.
+4. Unzip the downloaded file into the `data` folder.
 
-## Expected Packages and Resource Requirements
+## 1.6. Expected Packages and Resource Requirements
 
 **Python Packages**:
 - numpy
@@ -41,7 +58,31 @@ To access and download the dataset, please follow these steps:
 **Resource Requirements**:
 - CPU
 
-## How To Use
+# 2. CoreAI Setup
+
+From the folder where this `README.md` is, run:
+
+```bash
+# Run one of the following commands:
+
+# podman command
+podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-HotelReservationCancellation docker.io/infotrend/coreai:latest  /run_jupyter.sh
+
+# docker command
+docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 --name CoreAI-HotelReservationCancellation infotrend/coreai:latest  /run_jupyter.sh
+```
+
+Follow the instructions in the notebook `Hotel_reservation_cancellation.ipynb`.
+
+## 2.1. Stop CoreAI
+
+You can stop the Notebook by using the `File -> Shutdown` option.
+
+Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal where the container is running.
+
+# 3. Detailed Setup
+
+## 3.1. How To Use
 
 1. **Setup Environment**:
    - Clone the repository or download the specific project files.

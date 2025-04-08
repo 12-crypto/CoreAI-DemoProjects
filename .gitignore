@@ -3,3 +3,11 @@ Flux1Schnell/.ipynb_checkpoints
 Flux1Schnell/HF_HOME
 Flux1Schnell/myvenv
 Flux1Schnell/flux-schnell.png
+
+# Amex Default Prediction
+amex-default-prediction/.ipynb_checkpoints
+amex-default-prediction/data
+amex-default-prediction/myvenv
+amex-default-prediction/models
+amex-default-prediction/submission.csv
+

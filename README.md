@@ -32,6 +32,19 @@ CoreAI is a powerful environment designed to facilitate machine learning, comput
 
 On a system with an NVIDIA GPU and docker configured to use it, clone the repo, go into a directory with the notebook you want to try and get a ready-to-use Jupyter Notebook with CUDA, TensorFlow, PyToch and OpenCV available by following the instructions in each individual README.md file present in the subfolders, before going to http://127.0.0.1:8888/ and login using the default "iti" password.
 
+In general, the tool can be started by running:
+
+
+```bash
+# Run one of the following commands:
+
+# podman command
+podman run --rm -it --userns=keep-id --device nvidia.com/gpu=all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
+
+# docker command
+docker run --rm -it --runtime=nvidia --gpus all -e WANTED_UID=`id -u` -e WANTED_GID=`id -g` -e CoreAI_VERBOSE="yes" -v `pwd`:/iti -p 8888:8888 docker.io/infotrend/coreai:latest  /run_jupyter.sh
+```
+
 ## ZZ-Removed
 
 Contains projects that are have been tested with CoreAI but found not functional currently.

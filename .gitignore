@@ -54,3 +54,8 @@ Next_word_prediction/.ipynb_checkpoints
 Next_word_prediction/myvenv
 Next_word_prediction/data
 
+# NLP with Disaster Tweets
+NLP_with_DisasterTweets/.ipynb_checkpoints
+NLP_with_DisasterTweets/myvenv
+NLP_with_DisasterTweets/data/*.csv
+

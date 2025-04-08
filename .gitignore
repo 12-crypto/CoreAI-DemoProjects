@@ -41,3 +41,10 @@ ZZ-Removed/Home-Credit-Default-Risk-Recognition/submission.csv
 Hotel_reservation_cancellation/.ipynb_checkpoints
 Hotel_reservation_cancellation/data
 Hotel_reservation_cancellation/myvenv
+
+# Image Background Removal
+Image_Background_Removal/.ipynb_checkpoints
+Image_Background_Removal/images
+Image_Background_Removal/results/*
+Image_Background_Removal/__pycache__
+Image_Background_Removal/model/__pycache__

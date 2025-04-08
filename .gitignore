@@ -87,3 +87,8 @@ Sentiment_Analysis/Sentiment_Analysis
 Sleep_Disorder_prediction/.ipynb_checkpoints
 Sleep_Disorder_prediction/data
 Sleep_Disorder_prediction/myvenv
+
+# Wind Turbine Failure Detection
+Wind_turbine_failure_detection/.ipynb_checkpoints
+Wind_turbine_failure_detection/data
+Wind_turbine_failure_detection/myvenv

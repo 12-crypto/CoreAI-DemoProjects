@@ -92,3 +92,11 @@ Sleep_Disorder_prediction/myvenv
 Wind_turbine_failure_detection/.ipynb_checkpoints
 Wind_turbine_failure_detection/data
 Wind_turbine_failure_detection/myvenv
+
+# SDXL DreamBooth LoRA Training
+SDXL_DreamBooth_LoRA_Training/.ipynb_checkpoints
+SDXL_DreamBooth_LoRA_Training/output__LoRA
+SDXL_DreamBooth_LoRA_Training/myvenv
+SDXL_DreamBooth_LoRA_Training/train_dreambooth_lora_sdxl.py
+SDXL_DreamBooth_LoRA_Training/input_images
+SDXL_DreamBooth_LoRA_Training/HF_HOME

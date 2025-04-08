@@ -13,13 +13,14 @@ CoreAI is a powerful environment designed to facilitate machine learning, comput
 | --- | --- | --- |
 | Computer Vision | Fashion MNIST Classification | [Fashion_MNIST_Classification](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Fashion_MNIST_Classification) |
 | Computer Vision | Fast Neural Style Transfer | [Fast_neural-Style-Transfer](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Fast_neural-Style-Transfer) |
-| Computer Vision | Flux1Schnell Image Generation | [Flux1Schnell](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Flux1Schnell) |
 | Computer Vision | Image Background Removal | [Image_Background_Removal](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Image_Background_Removal) |
 | Data Science | Amex Default Prediction | [amex-default-prediction](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/amex-default-prediction) |
 | Data Science | Home Credit Default Risk Recognition | [Home-Credit-Default-Risk-Recognition](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Home-Credit-Default-Risk-Recognition) |
 | Data Science | Hotel reservation cancellation Prediction | [Hotel_reservation_cancellation](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Hotel_reservation_cancellation) |
 | Data Science | Predicting Yelp Ratings | [predicting-yelp-ratings](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/predicting-yelp-ratings) |  
 | Data Science | Wind turbine failure detection | [Wind_turbine_failure_detection](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Wind_turbine_failure_detection) |
+| Large Language Model (Computer Vision) | Flux1Schnell Image Generation | [Flux1Schnell](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Flux1Schnell) |
+| Large Language Model (and Computer Vision) | Gemma3 LLM + VLM (Image Understanding) | [Gemma3](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Gemma3) |
 | Machine Learning | Electrical Transmission lines Fault detection | [Electrical_Fault_Detection_Classification](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Electrical_Fault_Detection_Classification) |
 | Machine Learning| SDXL DreamBooth LoRA Training | [SDXL_DreamBooth_LoRA_Training](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/SDXL_DreamBooth_LoRA%20_Training) |
 | Machine Learning | Sleep Disorder Prediction | [Sleep_Disorder_prediction](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Sleep_Disorder_prediction) |

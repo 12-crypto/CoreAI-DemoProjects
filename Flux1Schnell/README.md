@@ -55,12 +55,3 @@ Alternatively, you can stop the container by pressing `Ctrl + C` in the terminal
 
 Because we used the `--rm` flag, the container will be automatically removed when you stop it.
 
-If you want to remove the container manually, you can run:
-
-```bash
-# podman command
-podman rm CoreAI-Flux1Schnell
-
-# docker command
-docker rm CoreAI-Flux1Schnell
-```

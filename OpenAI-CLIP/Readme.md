@@ -139,5 +139,6 @@ It is crucial to load the new "OpenAI-CLIP-myvenv" kernel for the notebook to wo
     Execute the notebook cells sequentially to perform data loading, preprocessing, model training, and evaluation.
 
 4. **Predictive Capability**: The trained CLIP model can retrieve relevant images based on textual queries (e.g., "a boy jumping with skateboard") and perform classification tasks by learning joint representations of images and text. This dual capability is valuable for applications in image search and automated content tagging.
+
 [Back to Top](#OpenAI-CLIP)
 

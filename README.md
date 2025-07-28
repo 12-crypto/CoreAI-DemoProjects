@@ -15,6 +15,7 @@ CoreAI is a powerful environment designed to facilitate machine learning, comput
 | Computer Vision | Fashion MNIST Classification | [Fashion_MNIST_Classification](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Fashion_MNIST_Classification) |
 | Computer Vision | Fast Neural Style Transfer | [Fast_neural-Style-Transfer](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Fast_neural-Style-Transfer) |
 | Computer Vision | Image Background Removal | [Image_Background_Removal](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Image_Background_Removal) |
+| Computer Vision | Realistic Face Generator | [Realistic_Face_Generator](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Realistic_Face_Generator) |
 | Data Science | Amex Default Prediction | [amex-default-prediction](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/amex-default-prediction) |
 | Data Science | Fertilizer Ranker | [Fertilizer_Ranker](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Fertilizer_Ranker) |
 | Data Science | Home Credit Default Risk Recognition | [Home-Credit-Default-Risk-Recognition](https://github.com/Infotrend-Inc/CoreAI-DemoProjects/tree/main/Home-Credit-Default-Risk-Recognition) |
